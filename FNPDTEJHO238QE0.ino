@@ -1,13 +1,9 @@
-/* David Wang
+/* 
  * Code that takes audio input from a 3.5mm cable
  * and flashes an LED strip based on the frequency 
  * of the music.
  *
- * HUGE thanks to the arduino community
- * If you see your code here, I owe you my gratitude
- *
  */
-
 int analogPin = 0; // MSGEQ7 OUT
 int strobePin = 2; // MSGEQ7 STROBE
 int resetPin = 4; // MSGEQ7 RESET
